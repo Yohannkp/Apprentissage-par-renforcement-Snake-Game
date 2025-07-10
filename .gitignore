@@ -1,0 +1,156 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE settings
+.vscode/settings.json
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Project specific - Snake RL
+models/
+experiments/
+reports/
+results/
+logs/
+checkpoints/
+saved_models/
+tensorboard_logs/
+
+# Training outputs
+training_*.png
+training_*.jpg
+training_*.gif
+quick_train_*.png
+benchmark_*.png
+gpu_test_*.png
+
+# Video recordings
+*.mp4
+*.avi
+*.mov
+*.mkv
+
+# Training data and metrics
+training_history.json
+metrics.json
+performance_log.txt
+
+# CUDA/PyTorch cache
+.cuda_cache/
+torch_extensions/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# PyTorch models and checkpoints
+*.pth
+*.pt
+*.ckpt
+*.model
+
+# TensorBoard logs
+events.out.tfevents.*
+runs/
+
+# Numpy arrays and data
+*.npy
+*.npz
+*.pkl
+*.pickle
+
+# GPU memory dumps
+*.dump
+*.prof
+
+# Matplotlib cache
+*.matplotlib
+
+# PyGame temp files
+*.tmp
+*.temp
+
+# Snake RL specific ignores
+demo_output.txt
+gpu_benchmark.txt
+performance_test.log
+training_log_*.txt
+
+# Backup files
+*.bak
+*.backup
+*_backup.*
+*_old.*
+
+# Environment-specific files
+.env.local
+.env.development
+.env.production
+
+# Large dataset files (if any)
+*.hdf5
+*.h5
+datasets/

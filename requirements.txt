@@ -1,0 +1,13 @@
+# PyTorch avec support CUDA pour RTX 4060
+# Pour installer : pip install -r requirements.txt
+--index-url https://download.pytorch.org/whl/cu124
+torch>=2.0.0
+torchvision>=0.15.0
+torchaudio>=2.0.0
+
+# Autres dépendances
+pygame>=2.5.0
+numpy>=1.24.0
+matplotlib>=3.7.0
+gymnasium>=0.29.0
+tqdm>=4.65.0
