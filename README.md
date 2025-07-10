@@ -3,11 +3,13 @@
 🐍 **Une IA qui apprend à jouer à Snake via Deep Q-Learning (DQN)**  
 ⚡ **Optimisé pour GPU NVIDIA (RTX 4060 et plus)**
 
-##  Démonstration
+## 🎮 Démonstration
 
-![Snake RL Demo](demo.gif)
-
-*Agent DQN entraîné jouant autonomement - Score de 20+ après 2000 épisodes d'entraînement*
+<div align="center">
+  <img src="demo.gif" alt="Snake RL Demo" width="600" height="400">
+  <br>
+  <em>Agent DQN entraîné jouant autonomement - Score de 20+ après 2000 épisodes d'entraînement</em>
+</div>
 
 ##  Objectif
 
