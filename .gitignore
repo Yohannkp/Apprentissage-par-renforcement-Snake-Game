@@ -94,6 +94,15 @@ gpu_test_*.png
 *.mov
 *.mkv
 
+# Exclude demo files for documentation
+!demo.gif
+!demo.png
+!demo.jpg
+
+# Exclude training result plots
+!models/training_plot.png
+!models/quick_train_results.png
+
 # Training data and metrics
 training_history.json
 metrics.json

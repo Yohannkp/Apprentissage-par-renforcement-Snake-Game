@@ -3,7 +3,13 @@
 🐍 **Une IA qui apprend à jouer à Snake via Deep Q-Learning (DQN)**  
 ⚡ **Optimisé pour GPU NVIDIA (RTX 4060 et plus)**
 
-## 🎯 Objectif
+##  Démonstration
+
+![Snake RL Demo](demo.gif)
+
+*Agent DQN entraîné jouant autonomement - Score de 20+ après 2000 épisodes d'entraînement*
+
+##  Objectif
 
 Ce projet implémente un agent d'apprentissage par renforcement qui apprend autonomement à jouer au jeu Snake en utilisant l'algorithme Deep Q-Network (DQN) avec PyTorch. L'entraînement est **accéléré par GPU** pour des performances optimales.
 
@@ -104,6 +110,12 @@ python quick_train.py
 python train.py
 ```
 
+6. **Voir votre agent jouer !**
+```bash
+python test.py
+```
+*Résultat similaire à la démo `demo.gif` ci-dessus*
+
 ### VS Code (Recommandé)
 
 Le projet inclut des tâches VS Code prêtes à l'emploi :
@@ -119,16 +131,25 @@ Le projet inclut des tâches VS Code prêtes à l'emploi :
 
 ## 🎮 Utilisation
 
+> 💡 **Voir la démo en action** : Consultez `demo.gif` en haut de ce README pour voir l'agent entraîné jouer !
+
 ### Entraînement
 
 ```bash
 # Entraînement standard (2000 épisodes)
 python train.py
 
+# Entraînement rapide (100 épisodes pour test)
+python quick_train.py
+
 # Les modèles sont sauvegardés dans models/
 # - snake_dqn.pth : modèle final
 # - snake_dqn_best.pth : meilleur modèle
+# - training_plot.png : courbe d'apprentissage
+# - quick_train_results.png : résultats rapides
 ```
+
+> 📈 **Voir les résultats** : Consultez la section "Résultats d'Entraînement" plus bas pour voir les courbes de performance !
 
 ### Test et Évaluation
 
@@ -189,6 +210,20 @@ Un agent bien entraîné devrait atteindre :
 - **Score moyen** : 10-20+ (vs ~1 pour un agent aléatoire)
 - **Score maximum** : 30-50+
 - **Convergence** : visible après 500-1000 épisodes
+
+## 📈 Résultats d'Entraînement
+
+### Entraînement Rapide (100 épisodes)
+![Quick Training Results](models/quick_train_results.png)
+
+*Progression de l'apprentissage sur 100 épisodes - Idéal pour tester rapidement*
+
+### Entraînement Complet (2000 épisodes)
+![Full Training Results](models/training_plot.png)
+
+*Courbe d'apprentissage complète - Performance optimale après convergence*
+
+> 💡 **Note** : Ces graphiques montrent l'évolution du score moyen et des performances de l'agent au fil des épisodes d'entraînement. La convergence est généralement visible après 500-1000 épisodes.
 
 ## 🎛️ Configuration Avancée
 
